@@ -1,0 +1,24 @@
+{
+  "name": "js_raytracer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luigi-Pizzolito/JS_RayTracer-MathAAHL-IA.git"
+  },
+  "author": "Luigi Pizzolito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luigi-Pizzolito/JS_RayTracer-MathAAHL-IA/issues"
+  },
+  "homepage": "https://github.com/Luigi-Pizzolito/JS_RayTracer-MathAAHL-IA#readme",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "progress": "^2.0.3"
+  }
+}
