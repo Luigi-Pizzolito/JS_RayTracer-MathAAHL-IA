@@ -75,6 +75,10 @@ export class Vec3 {
     round() {
         return new Vec3(Math.round(this.x), Math.round(this.y), Math.round(this.z))
     }
+
+    floor() {
+        return new Vec3(Math.floor(this.x), Math.floor(this.y), Math.floor(this.z))
+    }
 }
 
 export function rand_v() {

@@ -4,7 +4,7 @@ import Ray from './ray.js';
 export default class Camera {
     constructor() {
         this.viewportHeight = 2
-        this.viewportWidth = this.viewportHeight * (16 / 9)
+        this.viewportWidth = 4//this.viewportHeight * (16 / 9)
         this.focalLength = 1
         this.origin = new Vec3(0, 0, 0)
         this.horizontal = new Vec3(this.viewportWidth, 0, 0)
